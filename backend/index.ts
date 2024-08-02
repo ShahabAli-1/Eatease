@@ -21,7 +21,7 @@ cloudinary.config({
 });
 
 const app = express();
-app.use(bodyParser.json());
+// app.use(bodyParser.json());
 app.use(
   cors({
     origin: "https://eatease-ui.vercel.app",
